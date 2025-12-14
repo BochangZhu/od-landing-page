@@ -1,3 +1,103 @@
+/* Overall font setting*/
 body{
     font-family: Roboto, 'Open Sans', sans-serif;
+}
+
+
+.left > div:first-of-type{
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 900;
+
+}
+
+.left > #normal{
+    font-size: 10px;
+    color: #F9FAF8;
+}
+
+.hero .links{
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.blue_rectangle{
+    background-color: #3882F6;
+
+}
+
+.body1 div:first-of-type{
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+}
+
+/*Hero section formatting*/
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    gap: 25px;
+    padding-top: 10px;
+}
+
+.top_header{
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid rgb(232, 84, 84);
+    align-items: center;
+    padding: 0 15% 0 15%;
+}
+
+.links ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 24px;
+}
+
+a {
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    color: mediumaquamarine;
+    text-decoration: underline;
+}
+img.logo{
+    width: 100px;
+    height: auto;
+}
+
+img.header_img{
+    width: 300px;
+    height: auto;
+}
+
+.mid_header{
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid pink;
+    padding: 0 15% 0 15%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 7px;
+}
+
+.right{
+    display: flex;
+}
+
+button.signup{
+    width: 25%;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
 }
