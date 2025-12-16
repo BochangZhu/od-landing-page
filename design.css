@@ -5,14 +5,15 @@ body{
 
 
 .left > div:first-of-type{
-    font-size: 18px;
+    font-size: 2em;
     color: #F9FAF8;
     font-weight: 900;
+    text-shadow: -2px 3px 10px yellowgreen;
 
 }
 
 .left > #normal{
-    font-size: 10px;
+    font-size: 12px;
     color: #F9FAF8;
 }
 
@@ -31,6 +32,7 @@ body{
     font-size: 36px;
     color:#1f2937;
     font-weight: 900;
+    text-shadow: 3px 3px 6px yellowgreen;
 }
 
 /*Hero section formatting*/
@@ -79,18 +81,19 @@ img.header_img{
 .mid_header{
     display: flex;
     justify-content: space-between;
-    padding: 0 15% 0 15%;
+    padding: 10px 15% 0 15%;
 }
 
 .left{
     display: flex;
     flex-direction: column;
     width: 40%;
-    gap: 7px;
+    gap: 10px;
 }
 
 .right{
     display: flex;
+    align-items: center;
 }
 
 button.signup{
@@ -98,6 +101,12 @@ button.signup{
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
+    border: 3px solid grey;
+    transition-duration: 0.3s;
+}
+
+button.signup:hover{
+    box-shadow: -1px 4px 8px grey;
 }
 
 /*Body section styling*/
@@ -122,7 +131,7 @@ button.signup{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 1% 0 3% 0;
+    padding: 5% 0;
 }
 
 .four_vals > div{
@@ -134,4 +143,93 @@ button.signup{
 .four_vals{
     display: flex;
     gap: 25px;
+    width: 60%;
+    justify-content: center;
 }
+
+
+/*Quote section styling*/
+
+.body2{
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 1.5em;
+    padding: 7.5% 0;
+}
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    font-weight:600;
+}
+.quote{
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    font-style: italic;
+}
+
+
+/*Call to action section*/
+
+.body3{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 110px;
+}
+
+.blue_rectangle{
+    width: 50vw;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 50px;
+    border-radius: 5px;
+}
+
+.guiding_text > .text1{
+    font-size: 1.25em;
+    font-weight: 800;
+}
+
+#signup{
+    background-color: #3882F6;
+    color: white;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 5px 10px;
+    transition-duration: 0.3s;
+
+}
+
+#signup:hover{
+    background-color: white;
+    color: #3882F6;
+    border-color: #3882F6;
+}
+
+
+/*end note section styling*/
+
+.endsec{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.endnote{
+    color: white;
+    font-size: 12px;
+}
+
